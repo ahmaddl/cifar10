@@ -19,9 +19,15 @@ Download and extract the Data.
 It contains a 2d array numpy first column includes images and second column determines the labels(classes) by integer.
 To load data use:
 
+
 import numpy as np
+
+
 cifar10= np.load('cifar10_2D_array.npy',allow_pickle=True)
 
+
 #show image
+
 plt.imshow(cifar10[100,0])  #display a ship
+
 plt.show()
